@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Mohamed Shawky\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add solc
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShell_7.3.7.0_x64__8wekyb3d8bbwe;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\7-Zip;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Mohamed Shawky\AppData\Local\Microsoft\WindowsApps;;C:\Users\Mohamed Shawky\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mohamed Shawky\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\projects\project_eth\node_modules\keccak\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "name": "project_eth",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+      "hardhat": "^2.14.0"
+    },
+    "dependencies": {
+      "@chainlink/contracts": "^0.7.1",
+      "solc": "^0.8.21"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

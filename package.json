@@ -1,0 +1,22 @@
+{
+  "name": "project_eth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.18.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.7.1",
+    "dotenv": "^16.3.1",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "web-vitals": "^3.5.0"
+  }
+}
